@@ -32,10 +32,14 @@ const Player = ({
 
   useEffect(() => {
     if (diceNum && enableDecrease.current) {
-      setPlayerHealth(playerHealth - diceNum);
+      if (id === PLAYER_ID) {
+        setPlayerHealth(playerHealth - diceNum.opponentDice);
+      } else if (id !== PLAYER_ID) {
+        setPlayerHealth(playerHealth - diceNum.playerDice);
+      }
     }
     enableDecrease.current = false;
-  }, [diceNum, playerHealth]);
+  }, [diceNum, playerHealth, id]);
 
   // Check if player health get to 0
   useEffect(() => {

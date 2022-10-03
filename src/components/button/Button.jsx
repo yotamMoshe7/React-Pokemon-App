@@ -1,11 +1,5 @@
 import styled from 'styled-components';
-import {
-  LARGE,
-  LARGE_TEXT_SIZE,
-  MEDIUM,
-  MEDIUM_TEXT_SIZE,
-  SMALL,
-} from '../../utills/constants';
+import { LARGE, MEDIUM, SMALL } from '../../utills/constants';
 
 const Button = ({ text, size, weight, onClick, className }) => {
   return (

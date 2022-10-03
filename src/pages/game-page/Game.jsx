@@ -170,7 +170,7 @@ const GamePage = () => {
                   title='Player'
                   screenSide='left'
                   image={pokemonImages.playerImage}
-                  diceNum={dicesNum.opponentDice}
+                  diceNum={dicesNum}
                   onGameOver={onGameOver}
                 />
               ) : (
@@ -217,7 +217,7 @@ const GamePage = () => {
                   title='Opponent'
                   screenSide='right'
                   image={pokemonImages.opponentImage}
-                  diceNum={dicesNum.playerDice}
+                  diceNum={dicesNum}
                   onGameWin={onGameWin}
                 />
               ) : (
