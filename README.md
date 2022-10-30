@@ -14,7 +14,7 @@
 * In each round a random pokemon been chosen.
 * Each pokemon have 100 life points.
 * When battle button pressed, each pokemon get a random number between 1-6.
-* The pokemon who get the lowest number loose life points that equal to that number his oponnent got.
+* The pokemon who get the lowest number loose life points that equal to the number that his oponnent got.
 for example: after press battle, player 1 get the number 5, and pkayer 2 get the number 3.
 At this case player 2 will lose 5 life points.
 * If player get the number 6, he will be the only one who get a number in the next round.
