@@ -1,5 +1,14 @@
 ## React Pokemon App
 
+## Main Page
+![pokemon-main-page](https://user-images.githubusercontent.com/57434735/198879313-2fc0b426-4dce-425f-b227-31ecadc314ce.PNG)
+
+## Loading Pokemon Frame
+![pokemon-load-page](https://user-images.githubusercontent.com/57434735/198879320-95e82c84-a63d-413d-a2ea-4c2472f4742c.PNG)
+
+## Start App Page
+![pokemon-start-page](https://user-images.githubusercontent.com/57434735/198879326-ac80633d-1853-4584-b1c2-624cf8763841.PNG)
+
 # App Functionality
 * This is a Pokemon battle app.
 * In each round a random pokemon been chosen.
