@@ -20,7 +20,7 @@ At this case player 2 will lose 5 life points.
 * If player get the number 6, he will be the only one who get a number in the next round.
 * The first pokemon who get to 0 life points lose.
 * After game is over, a player can chose to continue to next game with same pokemon, or start new game with new pokemon.
-* If player choose to continue with same pokemon, a table tracker of number of wins and number of lost games will be created.
+* If player choose to continue with same pokemon, a table tracker of number of wins and number of losts games will be created.
 
 # App Run Instructions
 1. Download or clone the repository.
